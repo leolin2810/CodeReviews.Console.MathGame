@@ -216,7 +216,6 @@ namespace ConsoleApp1
                     {
                         break;
                     }
-                    ;
                     Console.WriteLine("Please enter a number between 1 and 5.");
                     continue;
                 }
@@ -300,6 +299,7 @@ namespace ConsoleApp1
 
     }
 }
+
 
 
 
