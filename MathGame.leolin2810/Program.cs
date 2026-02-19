@@ -1,4 +1,3 @@
-﻿using System.Threading.Tasks.Sources;
 using static System.Formats.Asn1.AsnWriter;
 
 namespace ConsoleApp1
@@ -13,7 +12,6 @@ namespace ConsoleApp1
         static void Main()
         {
             Program Application = new();
-            Game App = new();
             while (true)
             {
                 Console.Clear();
@@ -110,7 +108,6 @@ namespace ConsoleApp1
                         problemCount = Input;
                         break;
                     }
-                    ;
                     Console.WriteLine("Please enter a number greater than 5.");
                     continue;
                 }
@@ -304,4 +301,5 @@ namespace ConsoleApp1
 
     }
 }
+
 
