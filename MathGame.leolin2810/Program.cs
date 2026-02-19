@@ -242,7 +242,7 @@ namespace ConsoleApp1
                         NewGame.ClearProblemList();
                         NewGame.GenerateProblems();
                         DateTime StartTime = DateTime.Now;
-                        foreach (Problem problem in NewGame.Problems)
+                        foreach (Problem problem in NewGame.problems)
                         {
                             problem.DisplayEquation();
                             NewGame.AddScore(problem.CheckSolution(Console.ReadLine()));
@@ -304,3 +304,4 @@ namespace ConsoleApp1
 
     }
 }
+
