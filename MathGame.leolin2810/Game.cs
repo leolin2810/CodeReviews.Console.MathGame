@@ -7,8 +7,8 @@
         public List<Problem> problems = new();
         private int operation = 5;
         private int difficulty = 1;
-        private int score = 0;
-        private int time = 0;
+        private int score;
+        private int time;
 
         public void AddScore(int score)
         {
@@ -104,3 +104,4 @@
         }
     }
 }
+
