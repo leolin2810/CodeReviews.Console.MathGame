@@ -187,7 +187,6 @@ namespace ConsoleApp1
                         difficulty = Input;
                         break;
                     }
-                    ;
                     Console.WriteLine("Please enter a number between 1 and 3.");
                     continue;
                 }
@@ -299,6 +298,7 @@ namespace ConsoleApp1
 
     }
 }
+
 
 
 
